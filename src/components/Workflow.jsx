@@ -23,9 +23,9 @@ const Workflow = () => {
         <div className="bg-neutral-900 p-8 rounded-lg mt-4 mr-0">
       {/* Feature 1 */}
       <div className="flex items-start space-x-4 mb-6 text-neutral-300">
-        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1" />
+        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1 cursor-pointer" />
         <div>
-          <h3 className="text-lg font-semibold">Code merge made easy</h3>
+          <h3 className="text-lg font-semibold cursor-pointer">Code merge made easy</h3>
           <p className="text-sm text-neutral-400 mt-1">
             Track the performance of your VR apps and gain insights into user behavior.
           </p>
@@ -34,9 +34,9 @@ const Workflow = () => {
 
       {/* Feature 2 */}
       <div className="flex items-start space-x-4 mb-6 text-neutral-300">
-        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1" />
+        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1 cursor-pointer" />
         <div>
-          <h3 className="text-lg font-semibold">Review code without worry</h3>
+          <h3 className="text-lg font-semibold cursor-pointer">Review code without worry</h3>
           <p className="text-sm text-neutral-400 mt-1">
             Track the performance of your VR apps and gain insights into user behavior.
           </p>
@@ -45,9 +45,9 @@ const Workflow = () => {
 
       {/* Feature 3 */}
       <div className="flex items-start space-x-4 mb-6 text-neutral-300">
-        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1" />
+        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1 cursor-pointer" />
         <div>
-          <h3 className="text-lg font-semibold">AI Assistance to reduce time</h3>
+          <h3 className="text-lg font-semibold cursor-pointer">AI Assistance to reduce time</h3>
           <p className="text-sm text-neutral-400 mt-1">
             Track the performance of your VR apps and gain insights into user behavior.
           </p>
@@ -56,10 +56,10 @@ const Workflow = () => {
 
       {/* Feature 4 */}
       <div className="flex items-start space-x-4 mb-6 text-neutral-300">
-        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1" />
+        <FiCheckCircle className="text-green-500 w-6 h-6 mt-1 cursor-pointer" />
         <div>
-          <h3 className="text-lg font-semibold">Share work in minutes</h3>
-          <p className="text-sm text-neutral-400 mt-1">
+          <h3 className="text-lg font-semibold cursor-pointer">Share work in minutes</h3>
+          <p className="text-sm text-neutral-400 mt-1 ">
             Track the performance of your VR apps and gain insights into user behavior.
           </p>
         </div>
