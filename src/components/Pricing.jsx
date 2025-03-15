@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FiCheckCircle } from "react-icons/fi";
 
 const Pricing = () => {
@@ -18,9 +19,11 @@ const Pricing = () => {
             <Feature text="Web Analytics" />
             <Feature text="Private Mode" />
           </ul>
+          <Link to='/Payments'>
           <button className="mt-6 px-6 py-2 rounded-lg border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white transition">
             Subscribe
           </button>
+          </Link>
         </div>
 
         {/* Pro Plan */}
@@ -37,9 +40,11 @@ const Pricing = () => {
             <Feature text="Web Analytics (Advanced)" />
             <Feature text="Private Mode" />
           </ul>
+          <Link to='/Payments'>
           <button className="mt-6 px-6 py-2 rounded-lg bg-orange-600 text-white hover:bg-orange-700 transition">
             Subscribe
           </button>
+          </Link>
         </div>
 
         {/* Enterprise Plan */}
@@ -54,9 +59,11 @@ const Pricing = () => {
             <Feature text="High Performance Network" />
             <Feature text="Private Mode" />
           </ul>
+          <Link to='/Payments'>
           <button className="mt-6 px-6 py-2 rounded-lg border border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white transition">
             Subscribe
           </button>
+          </Link>
         </div>
       </div>
     </div>

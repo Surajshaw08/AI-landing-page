@@ -24,7 +24,9 @@ const Navbar = () => {
                 </ul>
                 {/* My buttons Routes=============================================== */}
                 <div className=' flex space-x-8'>
+                  <Link to='/Login'>
                     <button className=' bg-amber-600 rounded-full p-2 cursor-pointer hover:text-black hover:bg-white'>Login</button>
+                    </Link>
                     <button className=' bg-amber-600 rounded-md p-2 cursor-pointer hover:text-black hover:bg-white  '>Create an account</button>
                 </div>
             </div>

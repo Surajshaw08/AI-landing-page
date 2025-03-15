@@ -7,6 +7,8 @@ import Workflow from './components/Workflow'
 import Pricing from './components/Pricing'
 import Footer from './components/Footer'
 import Testimonials from './components/Testimonials'
+import Login from './components/Login'
+import Payments from './components/Payments'
 
 
 
@@ -29,6 +31,8 @@ function App() {
         <Route path='/Workflow' element={<Workflow  />}></Route>
         <Route path='/Pricing' element={<Pricing  />}></Route>
         <Route path='/Testimonials' element={<Testimonials  />}></Route>
+        <Route path='/Login' element={<Login/>}></Route>
+        <Route path='/Payments' element={<Payments/>}></Route>
         {/* ALL Routes============================================== */}
       </Routes>
       <Footer  />
